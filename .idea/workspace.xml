@@ -5,19 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="910fb411-ce85-4c93-98f6-1cbb5d1255be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day_01_selenium_intro/CloseAndQuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day_01_selenium_intro/DriveNavigation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day_01_selenium_intro/FirstSeleniumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day_01_selenium_intro/GetUrlAndPageSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day_01_selenium_intro/MaximizeVsFullScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day_01_selenium_intro/VerifyPageTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ucode/base/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ucode/utility/Wait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_02_seleniumProjects/GetTextAndAttributeValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_02_seleniumProjects/LocateElementByIdAndClick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_02_seleniumProjects/LoginToApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_02_seleniumProjects/LoginToApplication2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_02_seleniumProjects/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_03_locators_and_methodS/ByAnyTagNameAndAttributeCss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_03_locators_and_methodS/CssSelectorPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_03_locators_and_methodS/CssSelectorPractice2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_03_locators_and_methodS/LocateByCssClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_03_locators_and_methodS/LocateByCssId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_03_locators_and_methodS/LocateByTagName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,20 +50,20 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.MaximizeVsFullScreen">
-    <configuration name="CloseAndQuit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day_01_selenium_intro.CloseAndQuit" />
+}</component>
+  <component name="RunManager" selected="Application.CssSelectorPractice2">
+    <configuration name="ByAnyTagNameAndAttributeCss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day_03_locators_and_methodS.ByAnyTagNameAndAttributeCss" />
       <module name="seleniumProject1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day_01_selenium_intro.*" />
+          <option name="PATTERN" value="day_03_locators_and_methodS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DriveNavigation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day_01_selenium_intro.DriveNavigation" />
+    <configuration name="CssSelectorPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day_03_locators_and_methodS.CssSelectorPractice" />
       <module name="seleniumProject1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day_01_selenium_intro.*" />
+          <option name="PATTERN" value="day_03_locators_and_methodS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetUrlAndPageSource" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day_01_selenium_intro.GetUrlAndPageSource" />
+    <configuration name="CssSelectorPractice2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day_03_locators_and_methodS.CssSelectorPractice2" />
       <module name="seleniumProject1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day_01_selenium_intro.*" />
+          <option name="PATTERN" value="day_03_locators_and_methodS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximizeVsFullScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day_01_selenium_intro.MaximizeVsFullScreen" />
+    <configuration name="LocateByCssClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day_03_locators_and_methodS.LocateByCssClass" />
       <module name="seleniumProject1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day_01_selenium_intro.*" />
+          <option name="PATTERN" value="day_03_locators_and_methodS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyPageTitle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day_01_selenium_intro.VerifyPageTitle" />
+    <configuration name="LocateByCssId" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day_03_locators_and_methodS.LocateByCssId" />
       <module name="seleniumProject1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day_01_selenium_intro.*" />
+          <option name="PATTERN" value="day_03_locators_and_methodS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaximizeVsFullScreen" />
-        <item itemvalue="Application.CloseAndQuit" />
-        <item itemvalue="Application.DriveNavigation" />
-        <item itemvalue="Application.GetUrlAndPageSource" />
-        <item itemvalue="Application.VerifyPageTitle" />
+        <item itemvalue="Application.CssSelectorPractice2" />
+        <item itemvalue="Application.CssSelectorPractice" />
+        <item itemvalue="Application.ByAnyTagNameAndAttributeCss" />
+        <item itemvalue="Application.LocateByCssClass" />
+        <item itemvalue="Application.LocateByCssId" />
       </list>
     </recent_temporary>
   </component>
